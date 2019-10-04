@@ -251,7 +251,7 @@ spec:
         path: aws/nvidia-device-plugin
     name: nvidia-device-plugin
   enableApplications: true
-  manifestsRepo: /Users/trm/trm-kubeflow-test/.cache/manifests/manifests-cherry-pick-aws-manifests
+  manifestsRepo: s.cache/manifests/manifests-cherry-pick-aws-manifests
   packageManager: kustomize
   platform: aws
   plugins:
@@ -279,6 +279,6 @@ spec:
 status:
   reposCache:
     kubeflow:
-      localPath: '"/Users/trm/trm-kubeflow-test/.cache/kubeflow/kubeflow-0.6-branch"'
+      localPath: '".cache/kubeflow/kubeflow-0.6-branch"'
     manifests:
-      localPath: '"/Users/trm/trm-kubeflow-test/.cache/manifests/manifests-cherry-pick-aws-manifests"'
+      localPath: '".cache/manifests/manifests-cherry-pick-aws-manifests"'
